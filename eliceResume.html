@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>엘리스 토끼 이력서</title>
+    <style>
+      @font-face {
+        font-family: "elics";
+        src: url("fEliceDigitalBaeumOTF_Bold.otf");
+        src: url("EliceDigitalBaeumOTF_Regular.otf");
+        font-weight: bold;
+        font-style: normal;
+      }
+      * {
+        font-family: "elics", "sans-serif";
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        width: 100%;
+        height: 100px;
+        background-color: gray;
+      }
+      nav ul li {
+        list-style: none;
+      }
+      nav ul li a {
+        display: block;
+        color: white;
+        text-decoration: none;
+      }
+      div.grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      footer {
+        width: 100%;
+        height: 100px;
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">홈</a></li>
+          <li><a href="#Resume">이력서</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 id="Resume">이력서</h1>
+    <h2>엘리스 토끼</h2>
+    <img
+      src="img/chuttersnap-r4GLmscybec-unsplash.jpg"
+      width="300px"
+      alt="엘리스 토끼 프로필"
+    />
+    <div class="grid-container">
+      <section>
+        <h3>인적사항</h3>
+        <div><strong>생년월일:</strong> 1990. 03. 26 | O형</div>
+        <div><strong>주소:</strong> 대전광역시 유성구 문지로 193</div>
+        <div><strong>연락처:</strong> contact@elice.io | 070.4633.2017</div>
+      </section>
+      <sction>
+        <h3>학력사항</h3>
+        <ul>
+          <li>2010.03 ~ 2013.02: 엘리스중학교 | 경기</li>
+          <li>2013.03 ~ 2016.02: 엘리스고등학교 | 경기 | 자연계</li>
+          <li>2016.03 ~ 2022.02: 엘리스대학교 | 서울 | 컴퓨터공학과</li>
+        </ul>
+      </sction>
+      <section>
+        <h3>경력사항</h3>
+        <ol>
+          <li>한국 정보 올림피아드 대상</li>
+          <li>대학생 봉사 동아리 회장</li>
+          <li>엘리스 AI 트랙 수료</li>
+        </ol>
+      </section>
+      <section>
+        <h3>보유 스킬</h3>
+        <ul>
+          <li>
+            <a
+              href="https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started"
+              >HTML</a
+            >
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/ko/docs/Web/CSS"> CSS </a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript">
+              JavaScript
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      <p>
+        Author by: 엘리스 토끼<br />
+        Copyright &copy; 2016 - 2022 elice. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>

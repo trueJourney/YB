@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+h1 {
+    color: red;
+    background-color: yellow;
+}
+
+#one {
+    font-size: 100px;
+}
+
+/* style.css파일 */
+@font-face {
+    font-family: "newFont"; /* 내가 짓고 싶은 이름 짓기 */
+    src: local(로컬이름), url(newFont_Regular.otf); format();
+    src: url(newFont_Bold.otf); format();
+    font-weight: bold; /* normal 등 */
+    font-style: normal; /* italic 등 */ 
+    
+}
+
+p {
+    font-family: "newFont", "sans-serif";
+}
